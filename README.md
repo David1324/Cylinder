@@ -1,2 +1,2 @@
 # Cylinder
-calculates intersection between ray and cylinder
+calculates intersection between a ray and a cylinder
