@@ -2,7 +2,7 @@ clear;
 close all;
 clc;
 
-is_symbolic = true;
+is_symbolic = false;
 
 cylinder = get_random_cylinder(is_symbolic);
 ray = get_random_ray(is_symbolic);
