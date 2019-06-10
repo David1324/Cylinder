@@ -1,7 +1,7 @@
 function ray = get_random_ray(is_symbolic)
     if is_symbolic
-        ray.unit_vec = sym('a',[3 1]);
-        ray.point = sym('q',[3 1]);        
+        ray.unit_vec = sym('a',[1 3]);
+        ray.point = sym('q',[1 3]);        
     else
         vec = rand(1,3);
         norm_vec = norm(vec);
