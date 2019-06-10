@@ -1,8 +1,8 @@
 function cylinder = get_random_cylinder(is_symbolic)    
     if is_symbolic
         syms r;
-        cylinder.unit_vec = sym('v',[3 1]);
-        cylinder.point = sym('p',[3 1]);
+        cylinder.unit_vec = sym('v',[1 3]);
+        cylinder.point = sym('p',[1 3]);
 %         cylinder.unit_vec = [0 0 1];
 %         cylinder.point = [0 0 0];        
         cylinder.radius = r;
