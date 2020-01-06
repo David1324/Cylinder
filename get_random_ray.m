@@ -1,5 +1,6 @@
 function ray = get_random_ray(is_symbolic)
     if is_symbolic
+	hello world!
         ray.unit_vec = sym('a',[1 3]);
         ray.point = sym('q',[1 3]);        
     else

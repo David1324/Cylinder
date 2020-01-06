@@ -1,5 +1,6 @@
 function cylinder = get_random_cylinder(is_symbolic)    
     if is_symbolic
+	david bla bla
         syms r;
         cylinder.unit_vec = sym('v',[1 3]);
         cylinder.point = sym('p',[1 3]);
